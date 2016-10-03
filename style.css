@@ -1,0 +1,68 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0px;
+  height: 70px;
+  margin-bottom: 0px;
+
+}
+
+header div {
+  height: 70px;
+  margin: 0px auto;
+  padding: 0px;
+  width: 960px;
+
+}
+
+header ul, header nav, header li {
+  display: inline-block;
+  float:left;
+  padding:0px;
+  margin:0px;
+}
+
+header img {
+  float:left;
+}
+
+header nav, header ul {
+  margin: 0px auto;
+  padding-top: 0px;
+}
+
+header li {
+  width: 190px;
+  margin: auto;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  outline: 1px dotted yellow;
+}
+
+#images {
+  margin: 0px auto;
+  text-align: center;
+}
+
+#hero {
+  margin: 20px auto;
+}
+
+#images ul {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0px;
+}
+
+#images li {
+  display: inline;
+}
+
+#subone, #subtwo {
+  margin-right: 30px;
+}
