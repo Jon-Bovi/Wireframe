@@ -1,10 +1,12 @@
 * {
   font-family: Quicksand;
+  color: #201D23;
 }
 
 body {
   padding: 0px;
   margin: 0px;
+  background-color: #EAEAEA;
 }
 
 header {
@@ -13,7 +15,7 @@ header {
   padding: 15px 0px;
   height: 70px;
   margin-bottom: 0px;
-
+  background-color: #111A20;
 }
 
 header div {
@@ -42,10 +44,17 @@ header nav, header ul {
 
 header li {
   width: 190px;
-  margin: auto;
   padding-top: 26px;
   padding-bottom: 26px;
-  outline: 1px dotted yellow;
+}
+
+header a {
+  color: #EAEAEA;
+}
+
+header a:hover {
+  color: #598C87;
+  cursor: pointer;
 }
 
 #images {
@@ -109,8 +118,13 @@ button {
   background-color: black;
 }
 
+button:hover {
+  background-color: #445F66;
+  cursor: pointer;
+}
+
 footer {
   height: 200px;
   width: 100%;
-  background-color: gray;
+  background-color: #111A20;
 }
