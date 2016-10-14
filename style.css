@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  width: 100%;
+  width: auto;
   text-align: center;
   padding: 15px 0px;
   height: 70px;
@@ -45,14 +45,15 @@ header nav, header ul {
 header li {
   width: 190px;
   padding-top: 26px;
-  padding-bottom: 26px;
+  padding-bottom: 25px;
 }
 
 header a {
   color: #EAEAEA;
 }
 
-header a:hover {
+header li:hover {
+  background-color: #000000;
   color: #598C87;
   cursor: pointer;
 }
@@ -60,6 +61,7 @@ header a:hover {
 #images {
   margin: 0px auto;
   text-align: center;
+  width: 960px;
 }
 
 #hero {
@@ -72,7 +74,7 @@ header a:hover {
   font-size: 0px;
 }
 
-#images li {
+.sub-banner {
   display: inline;
 }
 
@@ -116,6 +118,7 @@ button {
   margin-top: 8px;
   padding: 10px 20px;
   background-color: black;
+  transition: 300ms all;
 }
 
 button:hover {
